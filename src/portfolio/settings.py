@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # созданные приложения
     "jobs.apps.JobsConfig",
     "blog.apps.BlogConfig",
+    "author.apps.AuthorConfig",
     # установленные приложения
     "ckeditor",
     "ckeditor_uploader",
@@ -111,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = "ru-RU"
 
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-TIME_ZONE = "Europe/Moscow"
+TIME_ZONE = "Asia/Yekaterinburg"
 
 USE_I18N = True
 

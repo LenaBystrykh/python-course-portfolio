@@ -23,25 +23,8 @@
 <header>
   <div class="collapse bg-dark" id="navbarHeader">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">Обо мне</h4>
-          <p class="text-muted">
-              Быстро изучаю новое и интересуюсь современными компьютерными технологиями.
-              Владею английским языком на уровне Upper-Intermediate и постоянно совершенствую его.
-              Занимаюсь разработкой высоконагруженных сервисов с распределенной архитектурой.
-              Напишите мне для консультации.
-          </p>
-        </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Мои контакты</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Резюме</a></li>
-            <li><a href="https://github.com" target="_blank" class="text-white">GitHub</a></li>
-            <li><a href="mailto:username(att)somemailserver(dott)com" class="text-white">Email</a></li>
-          </ul>
-        </div>
-      </div>
+        {% block aboutauthor %}
+        {% endblock %}
     </div>
   </div>
   <div class="navbar navbar-dark bg-dark shadow-sm">
